@@ -1,4 +1,4 @@
-import streamlit as streamlit
+import streamlit as st
 
 def verificar_contrasena():
     st.title("Verificación de contraseña")
