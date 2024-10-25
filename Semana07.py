@@ -8,7 +8,7 @@ def verificar_contrasena():
     contrasena_correcta = "asdasd"
 
     #Inicializar variable de sesión para almacenar la entrada del usuario
-    if "Conraseña_ingresada" not in st.sesion_state:
+    if "contraseña_ingresada" not in st.sesion_state:
         st.session_state.contrasena_ingresada = ""
     
     #Input de la contraseña
