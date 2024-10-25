@@ -6,7 +6,6 @@ def verificar_contrasena():
 
     #Variable para alamacenar la contraseña
     contrasena_correcta = "asdasd"
-    contrasena_ingresada = ""
 
     #Inicializar variable de sesión para almacenar la entrada del usuario
     if "Conraseña_ingresada" not in st.sesion_state:
@@ -23,6 +22,6 @@ def verificar_contrasena():
         else:
             st.error("Contrasena incorrecta, intente de nuevo")
 
-    #Llamada a la función principal
-    if __name__ == "__main__":
-        verificar_contrasena()
+#Llamada a la función principal
+if __name__ == "__main__":
+    verificar_contrasena()
