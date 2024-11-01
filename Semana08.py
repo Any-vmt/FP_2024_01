@@ -12,12 +12,12 @@ def main():
 
     radio = sr.number_input("Ingrese el radio de la circunferencia:", min_value=0.0, step=0.1)
 
-if radio > 0:
-    area = calcular_area(radio)
+    if radio > 0:
+        area = calcular_area(radio)
 
-    st.write(f"Área:{area:.2f}")
-    st.write(f"Perímetro:{perimetro:.2f}")
-else:
-    st.write("Por favor, ingrese un radio mayor a cero.")
-    if __name__=="__main__":
-        main()
+        st.write(f"Área:{area:.2f}")
+        st.write(f"Perímetro:{perimetro:.2f}")
+    else:
+        st.write("Por favor, ingrese un radio mayor a cero.")
+if __name__=="__main__":
+    main()
