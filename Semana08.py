@@ -14,6 +14,7 @@ def main():
 
     if radio > 0:
         area = calcular_area(radio)
+        perimetro = calcular_perimetro(radio)
 
         st.write(f"Área:{area:.2f}")
         st.write(f"Perímetro:{perimetro:.2f}")
