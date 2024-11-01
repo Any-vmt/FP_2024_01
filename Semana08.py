@@ -1,7 +1,7 @@
 import streamlit as st
 import math
 
-def calcular_area (area):
+def calcular_area (radio):
     return math.pi * (radio ** 2) 
 
 def calcular_perimetro(radio):
